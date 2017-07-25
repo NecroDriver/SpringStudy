@@ -1,6 +1,0 @@
-com\transaction\service\aspectj\AccountServiceImplTest.class
-com\transaction\service\program\AccountServiceImplTest.class
-com\transaction\service\annotation\AccountServiceImplTest.class
-com\imooc\aop\aspectj\TestAspectj.class
-com\transaction\service\declare\AccountServiceImplTest.class
-com\imooc\aop\schema\advice\FitImplTest.class
