@@ -23,6 +23,14 @@
         DefaultAnnotationHandlerMapping annotation-driven HandlerMapping-->
     <!-- 扩充配置注解驱动 可以将request参数与绑定到controller参数上 -->
     <mvc:annotation-driven/>
+    
+    <!--注册拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/login/doLogin"/>
+            <bean class="com.mafh.interceptor.LoginInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
     <!--静态资源映射-->
     <!--本项目把静态资源放在了WEB-INF的statics目录下，资源映射如下-->
